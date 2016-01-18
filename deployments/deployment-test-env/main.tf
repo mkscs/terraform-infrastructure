@@ -23,6 +23,6 @@ module "my-alpine-mongodb" {
   mongodb_password       = "foo"
   mongodb_dbname         = "sirius"
   mongodb_storageengine  = "wiredTiger"
-  mongodb_journaling     = "journaling"
+  mongodb_journaling     = "journal"
   name                   = "mongodb_container"
 }
