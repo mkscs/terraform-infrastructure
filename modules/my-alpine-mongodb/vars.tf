@@ -18,7 +18,7 @@ variable "env_mongodb_username" {
   default = "MONGODB_USERNAME"
 }
 
-variable "MONGODB_USERNAME" { 
+variable "mongodb_username" { 
   default = ""
 }
 
